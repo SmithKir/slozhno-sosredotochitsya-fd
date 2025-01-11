@@ -1,14 +1,10 @@
 :root.theme-light {
-  --main-font: "IBM Plex mono";
   --text-color: #353430;
   --accent-text-color: #353430;
   --accent-color: #ff8dcb;
   --big-text-color: #ffc2e6;
   --decoration-color: #353430;
   --border-color-hover: rgba(53, 52, 48, 0.4);
-  --text-weight-normal: normal;
-  --text-weight-bold: bold;
-  --main-font-size: 18px;
 }
 
 .theme-light .page {
@@ -16,25 +12,21 @@
   --cover-image: url(../images/cover-image-light.png);
 }
 
-.header__rec {
+.theme-light .header__rec {
   display: none;
 }
 
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-font: "IBM Plex mono";
-  --bg-color: #fff1f7;
-  --text-color: #353430;
-  --accent-text-color: #353430;
-  --accent-color: #ff8dcb;
-  --big-text-color: #ffc2e6;
-  --decoration-color: #353430;
-  --border-color-hover: rgba(53, 52, 48, 0.4);
-  --text-weight-normal: normal;
-  --text-weight-bold: bold;
-  --main-font-size: 18px;
-  --cover-image: url(../images/cover-image-light.png);
+    --bg-color: #fff1f7;
+    --text-color: #353430;
+    --accent-text-color: #353430;
+    --accent-color: #ff8dcb;
+    --big-text-color: #ffc2e6;
+    --decoration-color: #353430;
+    --border-color-hover: rgba(53, 52, 48, 0.4);
+    --cover-image: url(../images/cover-image-light.png);
   }
 
   

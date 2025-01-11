@@ -1,5 +1,4 @@
 :root.theme-dark {
-  --main-font: "IBM Plex mono";
   --cover-image: url(../images/cover-image-dark.png);
   --text-color: #f1b2ce;
   --accent-text-color: #000028;
@@ -7,9 +6,6 @@
   --big-text-color: #db00ff;
   --decoration-color: #ff0070;
   --border-color-hover: rgba(255, 0, 112, 0.4);
-  --text-weight-normal: normal;
-  --text-weight-bold: bold;
-  --main-font-size: 18px;
 }
 
 .theme-dark .page {
