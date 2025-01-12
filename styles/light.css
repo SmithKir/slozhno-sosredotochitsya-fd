@@ -29,6 +29,7 @@
     --cover-image: url(../images/cover-image-light.png);
   }
 
-  
-  
+  .header__rec {
+    display: none;
+  }
 }
